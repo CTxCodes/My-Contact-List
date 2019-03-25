@@ -4,7 +4,7 @@
 //
 //  Created by Corey Townsend on 3/17/19.
 //  Copyright © 2019 Learning Mobile App. All rights reserved.
-//
+//test
 
 import UIKit
 
@@ -46,7 +46,7 @@ class SettingViewController: UIViewController,UIPickerViewDelegate,UIPickerViewD
         pckSortField.reloadComponent(0)
     }
     
-
+//sort direction of contacts
     @IBAction func sortDirectionChanged(_ sender: Any) {
         let settings = UserDefaults.standard
         settings.set(swAscending.isOn, forKey: Constants.kSortDirectionAscending)
